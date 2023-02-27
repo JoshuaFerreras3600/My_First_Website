@@ -152,6 +152,7 @@ label{
         z-index: 2;
         display: block;
         position: fixed;
+        
     }
 
     label .menu-btn{
