@@ -85,6 +85,7 @@ form .text_field{
 .text_field input:focus ~ label,
 .text_field input:valid ~ label{
     top: -5px;
+	color: red;
 
 }
 .text_field input:focus ~ span::before,
