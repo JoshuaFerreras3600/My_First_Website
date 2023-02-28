@@ -27,7 +27,7 @@ body{
     width: 50%;
     align-items: center;
     background-color: whitesmoke;
-    text-align: center;
+    
 }
 .form h2{
     text-align: center;
@@ -77,7 +77,7 @@ form .text_field{
     left: 0;
     width: 0%;
     height: 2px;
-    background: #114A9C;
+    background: red;
     transition: 0.5s;
 
     
@@ -85,12 +85,12 @@ form .text_field{
 .text_field input:focus ~ label,
 .text_field input:valid ~ label{
     top: -5px;
-	color: red;
+    color: #114A9C;
 
 }
 .text_field input:focus ~ span::before,
 .text_field input:valid ~ span::before{
-    width: 50%;
+    width: 100%;
 
 }
 .pass{
