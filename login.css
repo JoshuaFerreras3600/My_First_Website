@@ -5,13 +5,37 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Poppins"; sans-serif;
-    background-color: #114A9C;
-    height: 100vh;
-    display: flex;
-    overflow: hidden;
+    background-color: #326ABD;
 }
 
-.logo{
+/* Container */
+.container{
+    display: flex;
+    height: 800px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 150px;
+    box-shadow: 40px 40px 40px black;
+    
+}
+/* Login Form */
+.form{
+    display: flex;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.form h2{
+    text-align: center;
+    padding: 0 0 20px 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.form h1{
     background: url(edosa-logo2.png) no-repeat center center/cover;
 	position: relative;
 	width: 100%;
@@ -20,28 +44,7 @@ body{
 	border-radius: 10px;
     transition: 0.3s;
     transition-property: background;
-}
-
-.center{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-    background: white;
-    border-radius: 10px;
-}
-
-.center h1{
-    text-align: center;
-    padding: 0 0 20px 0;
     border-bottom: 1px solid silver;
-    text-transform: uppercase;
-}
-
-.center form{
-    padding: 0 40px;
-    box-sizing: border-box;
 }
 form .text_field{
     position: relative;
@@ -76,27 +79,30 @@ form .text_field{
     height: 2px;
     background: #114A9C;
     transition: 0.5s;
+
+    
 }
 .text_field input:focus ~ label,
 .text_field input:valid ~ label{
     top: -5px;
-    color: #114A9C;
+
 }
 .text_field input:focus ~ span::before,
 .text_field input:valid ~ span::before{
-    width: 100%;
+    width: 50%;
+
 }
 .pass{
     margin: -5px 0 20px 5px;
-    color: black;
+    color: #114A9C;
     cursor: pointer;
 }
 .pass:hover{
     text-decoration: underline;
-    color: blue;
+    color: red;
 }
 input[type="submit"]{
-    width: 100%;
+    width: 50%;
     height: 50px;
     border: 1px solid;
     background: #114A9C;
@@ -125,8 +131,21 @@ input[type="submit"]:hover{
 }
 .signup_link a{
     text-decoration: none;
-    color: darkcyan;
+    color: #114A9C;
 }
 .signup_link a:hover{
     text-decoration: underline;
+    color: red;
+}
+/* Right Side */
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #114A9C;
+}
+.side img{
+    width: 900px;
+    height: 600px;
 }
