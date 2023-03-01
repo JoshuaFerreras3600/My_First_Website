@@ -18,7 +18,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(/images/doctorimg3.jpg) no-repeat;
+    background: url(My_First_Website/images/doctorimg3.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
