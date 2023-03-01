@@ -197,7 +197,7 @@ a{
     transition-delay: 0.5s;
 }
 .panel h3{
-    background: url(/images/edosa-logo2.png) no-repeat center center/cover;
+    background: url(images/edosa-logo2.png) no-repeat center center/cover;
 	position: relative;
 	width: 100%;
 	height: 200px;

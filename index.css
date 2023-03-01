@@ -18,7 +18,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(/My_First_Website/images/doctorimg3.jpg) no-repeat;
+    background: url(images/doctorimg3.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -33,7 +33,7 @@ header{
     align-items: center;
 }
 header .logo{
-	background: url(/images/edosa-logo.png) no-repeat center center/cover;
+	background: url(images/edosa-logo.png) no-repeat center center/cover;
 	position: relative;
 	width: 200px;
 	height: 100px;
