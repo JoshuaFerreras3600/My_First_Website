@@ -55,7 +55,9 @@ header .navigation a:not(:last-child){
     margin-right: 30px;
 }
 header .navigation a:hover{
-    background: skyblue;
+    background: white;
+    color: #114A9C;
+    border: 2px solid #114A9C;
 }
 .content{
     max-width: 650px;
@@ -94,11 +96,12 @@ header .navigation a:hover{
     transition-property: transform;
     
 }
-.content .getstarted-btn:hover{
+.content .getstarted-btn:active{
     background: white;
     color: #114A9C;
     transform: scale(1.2);
-    border: none;
+    border: 2px solid #114A9C;
+
 }
 label{
     display: none;
