@@ -129,6 +129,19 @@ form.sign-up-form {
     font-weight: 600;
     color: black;
 }
+.sign-in-form #email_error,
+.sign-in-form #pass_error{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 15px;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.1 );
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #ef9a9a;
+    display: none;
+}
 
 .forgotpass{
     margin: -5px 0 5px 5px;
